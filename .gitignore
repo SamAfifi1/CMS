@@ -55,3 +55,19 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.rsuser
+
+# Other editors
+.idea/
+.vscode/
+
+# Database files that must never be committed
+*.dump
+*.bak
+*.backup
+pgdata/
